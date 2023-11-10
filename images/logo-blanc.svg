@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1024">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-family: Arial-BoldMT, Arial;
+        font-size: 375.49px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="right_square_bracket" data-name="right square bracket">
+    <rect class="cls-1" x="279" y="120" width="80" height="700"/>
+    <rect class="cls-1" x="359" y="780" width="100" height="40"/>
+    <rect class="cls-1" x="359" y="120" width="100" height="40"/>
+  </g>
+  <g id="left_square_bracket" data-name="left square bracket">
+    <rect class="cls-1" x="838.6" y="467" width="70.5" height="351.99"/>
+    <rect class="cls-1" x="909" y="467" width="96" height="20"/>
+    <rect class="cls-1" x="909" y="799" width="96" height="20"/>
+  </g>
+  <text class="cls-2" transform="translate(459.14 739.85)"><tspan x="0" y="0">@</tspan></text>
+</svg>

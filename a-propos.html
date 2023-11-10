@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<title>À propos</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Eczar">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="apropos">
+
+		<div class="topnav" id="myTopnav">
+		<div class="items">
+			<a href="index.html" class="active">Accueil</a>
+			<a href="a-propos.html">À Propos</a>
+			<a href="portfolio.html">Portfolio</a>
+			<a href="services.html">Services</a>
+			<a href="temoignages.html">Témoignages</a>
+			<a href="contact.html">Contactez-moi</a>
+
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+	</div>
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+
+	<div class="sidebar">
+		<img src="./images/logo-blanc.svg" class="logo"alt="logo-blanc">
+		<a href="index.html" class="active">Accueil</a>
+		<a href="a-propos.html">À Propos</a>
+		<a href="portfolio.html">Portfolio</a>
+		<a href="services.html">Services</a>
+		<a href="temoignages.html">Témoignages</a>
+		<a href="contact.html">Contactez-moi</a>
+	</div>
+
+	<div class="container1">
+		<h1>À Propos</h1>
+		<hr>
+		<div class="row">
+			<div class="col50">
+				<div class="bloc">
+					<img src="./images/img2.jpg" class="img2" alt="img2">
+				</div>
+			</div>
+			<div class="col50">
+				<div class="bloc">
+					<p>Bacon ipsum dolor amet leberkas rump kielbasa burgdoggen corned beef boudin. Bresaola pork loin jerky, drumstick brisket ribeye capicola tenderloin cow kevin pancetta.
+					</p>
+					<p>Bacon ipsum dolor amet leberkas rump kielbasa burgdoggen corned beef boudin. Bresaola pork loin jerky, drumstick brisket ribeye capicola tenderloin cow kevin pancetta.
+					</p>
+					<p>Bacon ipsum dolor amet leberkas rump kielbasa burgdoggen corned beef boudin. Bresaola pork loin jerky, drumstick brisket ribeye capicola tenderloin cow kevin pancetta.
+					</p>					
+				</div>		
+			</div>
+		</div>
+
+		<footer>
+			<h2>CAROL-ANN CHIASSON, PHOTOGRAPHE | QUÉBEC, RIVE-SUD</h2>
+			<h4>SUIVEZ-MOI SUR FACEBOOK ET INSTAGRAM | 418-555-5555</h4>
+		</footer>
+
+	</div>
+
+</body>
+
+</html>

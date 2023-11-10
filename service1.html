@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<title>Service 1</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Eczar">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="service1">
+
+		<div class="topnav" id="myTopnav">
+		<div class="items">
+			<a href="index.html" class="active">Accueil</a>
+			<a href="a-propos.html">À Propos</a>
+			<a href="portfolio.html">Portfolio</a>
+			<a href="services.html">Services</a>
+			<a href="temoignages.html">Témoignages</a>
+			<a href="contact.html">Contactez-moi</a>
+
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+	</div>
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+
+	<div class="sidebar">
+		<img src="./images/logo-blanc.svg" class="logo"alt="logo-blanc">
+		<a href="index.html" class="active">Accueil</a>
+		<a href="a-propos.html">À Propos</a>
+		<a href="portfolio.html">Portfolio</a>
+		<a href="services.html">Services</a>
+		<a href="temoignages.html">Témoignages</a>
+		<a href="contact.html">Contactez-moi</a>
+	</div>
+
+	<div class="container1">
+		<h1>Service 1</h1>
+		<hr>
+		<div class="row">
+			<div class="col50">
+				<div class="bloc-superposition">
+					<img src="./images/img2.jpg" class="img2" alt="img2">
+				</div>		
+			</div>
+			<div class="col50">
+				<div class="bloc-superposition2">
+					<img src="./images/img2.jpg" class="img2" alt="img2">
+				</div>		
+			</div>
+		</div>
+
+				<section id="advertisers" class="advertisers-service-sec pt-5 pb-5">
+			<div class="container">				
+				<div class="row mt-5 mt-md-4 row-cols-1 row-cols-sm-1 row-cols-md-3 justify-content-center">
+					<div class="col33">
+						<div class="service-card">
+							<div class="icon-wrapper">
+								<i class="fa-solid fa-chart-line"></i>
+							</div>
+							<h3>Forfait Argent 3h</h3>
+							<p>
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+								Quisquam consequatur necessitatibus eaque.
+							</p>
+						</div>						
+					</div>
+
+					<div class="col33">
+						<div class="service-card">
+							<div class="icon-wrapper">
+								<i class="fa-solid fa-chart-line"></i>
+							</div>
+							<h3>Forfait Or 6h</h3>
+							<p>
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+								Quisquam consequatur necessitatibus eaque.
+							</p>
+						</div>						
+					</div>
+
+					<div class="col33">
+						<div class="service-card">
+							<div class="icon-wrapper">
+								<i class="fa-solid fa-chart-line"></i>
+							</div>
+							<h3>Forfait Platine 9h</h3>
+							<p>
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+								Quisquam consequatur necessitatibus eaque.
+							</p>
+						</div>						
+					</div>
+				</div>
+
+		
+
+		<footer>
+			<h2>CAROL-ANN CHIASSON, PHOTOGRAPHE | QUÉBEC, RIVE-SUD</h2>
+			<h4>SUIVEZ-MOI SUR FACEBOOK ET INSTAGRAM | 418-555-5555</h4>
+		</footer>
+
+	</div>
+
+</body>
+
+</html>

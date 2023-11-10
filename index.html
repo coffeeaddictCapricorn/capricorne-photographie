@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<title>Capricorne Photographie d'évènements musicaux</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Eczar">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="accueil">
+
+
+	<div class="topnav" id="myTopnav">
+		<div class="items">
+			<a href="index.html" class="active">Accueil</a>
+			<a href="a-propos.html">À Propos</a>
+			<a href="portfolio.html">Portfolio</a>
+			<a href="services.html">Services</a>
+			<a href="temoignages.html">Témoignages</a>
+			<a href="contact.html">Contactez-moi</a>
+
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+	</div>
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+
+	<div class="sidebar">
+		<img src="./images/logo-blanc.svg" class="logo"alt="logo-blanc">
+		<a href="index.html" class="active">Accueil</a>
+		<a href="a-propos.html">À Propos</a>
+		<a href="portfolio.html">Portfolio</a>
+		<a href="services.html">Services</a>
+		<a href="temoignages.html">Témoignages</a>
+		<a href="contact.html">Contactez-moi</a>
+	</div>
+
+
+	<div class="bloc-accueil">
+		<h1>Capricorne Photographie</h1>
+		<p>Photographe d'évènements musicaux</p>
+	</div>
+
+
+</body>
+
+</html>
